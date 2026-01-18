@@ -1,0 +1,10 @@
+import { ToastProvider } from "@/shared/useToast";
+import { ProfilePage } from "@/features/profile/ui/ProfilePage";
+
+export default function ProfileRoute() {
+  return (
+    <ToastProvider>
+      <ProfilePage />
+    </ToastProvider>
+  );
+}
